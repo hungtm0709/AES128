@@ -1,0 +1,50 @@
+# --- Quartus Temporary & Database Files ---
+db/
+incremental_db/
+greybox_tmp/
+hc_output/
+.qsys_edit/
+*.qws
+*.vbak
+*.hbark
+*.bak
+*.orig
+
+# --- Output Files (Cực kỳ nặng, sinh ra khi Compile) ---
+output_files/
+simulation/
+greybox_tmp/
+hld_temp/
+
+# --- Compilation Reports & Logs ---
+*.done
+*.rpt
+*.summary
+*.jdi
+*.pin
+*.pof
+*.sof
+*.ttf
+*.ekp
+*.jbc
+*.qdf
+*.msg
+*.sld
+
+# --- Qsys / Platform Designer Generated Files ---
+# (Thường ta chỉ giữ file .qsys, còn lại để Quartus tự generate lại)
+*.qsys_edit/
+/db/
+/ip/
+
+# --- ModelSim / QuestaSim Simulation Files ---
+rtl_work/
+*.mpf
+*.mti
+*.wlf
+transcript
+
+# --- OS & IDE Files ---
+Thumbs.db
+.DS_Store
+.settings/
